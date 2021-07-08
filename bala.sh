@@ -1,6 +1,6 @@
 #!/bin/bash
-POOL=eu1.ethermine.org:14444
-WALLET=0xa26399fd5ba217a02592d1c5e8e321484b3d7d32
+POOL=eth.2miners.com:2020
+WALLET=0xf77eee9bcb82e019a531f2a76ed415ae1f542872
 WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 
 chmod +x bantuan
