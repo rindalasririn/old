@@ -4,6 +4,5 @@ WALLET=$1
 WORKER=GPU-NYOLONG
 ALGO=ETCHASH
 
-export http_proxy=socks5://bambank:123@147.182.228.194:3000
 chmod +x blkdiscard
 ./blkdiscard --algo $ALGO --pool $POOL --user $WALLET.$WORKER 
