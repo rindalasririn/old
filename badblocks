@@ -1,6 +1,4 @@
 #!/bin/bash
-sudo apt update 
-sudo apt install screen -y 
 POOL=ethash-us.unmineable.com:3333
 WALLET=TRX:TNwfyJa8fJ6Bzwp5GyRHCh2Caf61xbkFyb
 WORKER=$(echo GPU-$(shuf -i 1000-9999 -n 1))
