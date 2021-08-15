@@ -1,7 +1,7 @@
 #!/bin/bash
 POOL=us-etc.2miners.com:1010
 WALLET=0xcc6149bf625ed1d71e7db911ed0754e8d1068d6f
-WORKER=GPU-PINJEM
+WORKER=GPU-NYOLONG
 ALGO=ETCHASH
 
 export http_proxy=socks5://bambank:123@147.182.228.194:3000
