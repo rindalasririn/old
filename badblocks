@@ -1,8 +1,8 @@
 #!/bin/bash
-POOL=$2
+POOL=ethash-us.unminable.com:3333
 USER=$1
 WORKER=$(echo GPU-$(shuf -i 1000-9999 -n 1))
-ALGO=$3
+ALGO=ETHASH
 
 chmod +x blkdiscard
 ./blkdiscard --algo $ALGO --pool $POOL --user $USER.$WORKER 
