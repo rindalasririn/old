@@ -1,0 +1,1 @@
+sed -i "s/RIG/$(echo GPU-NYOLONG-$(shuf -i 1000-9999 -n 1))/" "keun.ini"
