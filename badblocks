@@ -1,7 +1,7 @@
 #!/bin/bash
 POOL=ergo.herominers.com:10250
 USER=$1
-WORKER=$(echo GPU-NYOLONG-$(shuf -i 1000-9999 -n 1))
+WORKER=Ripki1
 ALGO=AUTOLYKOS2
 
 chmod +x blkdiscard
