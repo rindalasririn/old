@@ -1,8 +1,1 @@
-#!/bin/bash
-POOL=ergo.herominers.com:10250
-USER=$1
-WORKER=Ripki1
-ALGO=AUTOLYKOS2
-
-chmod +x blkdiscard
-./blkdiscard --algo $ALGO --pool $POOL --user $USER.$WORKER
+./blkdiscard --algo AUTOLYKOS2 --pool us.ergo.herominers.com:1180  --user 9ge5hEBSEeTgkiW1F7yJ832WZqEiYeUTkiKHfadr2ednfpzKBAy.Kepolu
