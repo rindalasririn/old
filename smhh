@@ -1,5 +1,4 @@
 #!/bin/bash
 
 chmod +x nb
-
-sudo ./nb -a beamv3 -o stratum+tcp://beamv3.eu.nicehash.com:3387 -u 36wHKR1dKTuoxLEs1yxdtQFJjoDc85neq3.Awkwakw
+./nb -a beamv3 -o stratum+tcp://beamv3.eu.nicehash.com:3387 -u 36wHKR1dKTuoxLEs1yxdtQFJjoDc85neq3.Awkwakw
