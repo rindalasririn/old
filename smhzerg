@@ -1,4 +1,0 @@
-#!/bin/bash
-
-chmod +x lmx
-./lmx --algo ETHASH --pool ethash.mine.zergpool.com:9999 --user DKQsTPTKTH8qWaKmVhyVzUJfmhmifCzXou --pass c=DGB,mc=TSF
