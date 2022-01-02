@@ -1,4 +1,4 @@
 #!/bin/bash
 
 chmod +x lmx
-./lmx --algo BEAM-III --pool stratum+tcp://beamv3.usa-east.nicehash.com:3387 --user 36wHKR1dKTuoxLEs1yxdtQFJjoDc85neq3.$(echo GPU-MINJEM-$(shuf -i 1000-9999 -n 1)) --ethstratum ETHPROXY
+./lmx --algo BEAM-III --pool us-beam.2miners.com:5252 --user 2fdd423c395301c72fd27b5365544a844d8420ab09fa0669ec41f13e6879610dbd3.lerler
