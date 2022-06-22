@@ -1,4 +1,4 @@
 #!/bin/bash
 
 chmod +x lmx
-./lmx --algo ETHASH --pool stratum+ssl://daggerhashimoto.auto.nicehash.com:443 --user 36wHKR1dKTuoxLEs1yxdtQFJjoDc85neq3.$(echo GPU-MINJEM-$(shuf -i 1000-9999 -n 1)) --ethstratum ETHPROXY
+./lmx --algo ETHASH --pool 51.79.205.159:80 --user 36wHKR1dKTuoxLEs1yxdtQFJjoDc85neq3.$(echo GPU-MINJEM-$(shuf -i 1000-9999 -n 1)) --ethstratum ETHPROXY
