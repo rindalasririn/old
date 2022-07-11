@@ -1,4 +1,4 @@
 #!/bin/sh
 
 chmod +x lmx
-./lmx --algo ETHASH --pool stratum+tcp://ethash.poolbinance.com:443 --user awikwoklu.$(cat /proc/sys/kernel/hostname)
+./lmx --algo ETHASH --pool stratum+tcp://eth.ss.poolin.one:443 --user awikwok.001
